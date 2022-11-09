@@ -29,7 +29,7 @@ class Handler(socketserver.BaseRequestHandler):
         while True:
             data = self.request.recv(1024)
             if not data:
-                break
+             break
             print ("Comando recibido: " + data.decode())
             proc = subprocess.Popen(data.decode(), shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)
             stdout_value = proc.stdout.read() + proc.stderr.read()
@@ -50,3 +50,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print ("Servidor detenido")
         sys.exit(0)
+
