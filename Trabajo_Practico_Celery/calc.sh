@@ -1,0 +1,1 @@
+python3  calc_matriz.py -n matriz.txt -m potencia.txt -o resultado.txt

@@ -1,0 +1,1 @@
+python3 pool.py -p 4 -f matriz.txt
