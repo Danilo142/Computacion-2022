@@ -1,3 +1,4 @@
+
 import codecs, multiprocessing, sys, os
 
 def objetivo_1(conn, queue):
