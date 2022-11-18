@@ -38,3 +38,7 @@ if ope in["+","-","*","/"]:
     calc(ope, num1, num2)
 else:
     print("El operador es invaldo, por favor solo usar +, -, *, /")
+
+
+
+
