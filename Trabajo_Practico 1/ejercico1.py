@@ -3,6 +3,7 @@ import sys
 
 #(opt,arg) = getopt.getopt(sys.argv[1:], 'ab:c')
 #python getopt_ejemplos.py -a -b 123 -c
+#opt = [('-a', ''), ('-b', '123'), ('-c', '')]
 try:
     opt,arg = getopt.getopt(sys.argv[1:], 'o:n:m:')
     if len(opt) != 3:
