@@ -1,3 +1,4 @@
+
 from celery import Celery
 from tareas import potencia, raiz, logaritmo
 import getopt, sys

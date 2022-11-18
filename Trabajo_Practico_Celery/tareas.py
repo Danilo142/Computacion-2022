@@ -1,3 +1,4 @@
+
 from celery_app import app
 from math import sqrt, log10
 
